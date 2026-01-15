@@ -29,9 +29,9 @@ a {
 }
 
 webheader {
-    color: neon blue 
     font-weight: bold;
     font-size: 1.5em;
+    color: #00D9FF;
 }
 </style>
 </head>
