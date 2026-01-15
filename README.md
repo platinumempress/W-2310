@@ -3,7 +3,7 @@
 <head>
 <style>
 body {
-    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHN4eWF1dW1pZ2lkc2Y2NHRvdXQ1bTBiY3pudWRkeWp4M3RpMDhsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FE0WTM8BG754I/giphy.gif');
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2U4YWRuc3diazg0M2dtbDBjaHczbHNpODlrdWc1Z2ZocGoyaGg5NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SExu1NjbmGALSv5Bm2/giphy.gif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
