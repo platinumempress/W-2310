@@ -3,7 +3,7 @@
 <head>
 <style>
 body {
-    background-image: url('<a href="https://stockcake.com/i/colorful-smoke-art_1035291_415889">Colorful Smoke Art</a>');
+    background-image: url('Source: <a href="https://stockcake.com">StockCake</a> (original: <a href="https://stockcake.com/i/colorful-smoke-art_1035291_415889">Colorful Smoke Art</a>)');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
