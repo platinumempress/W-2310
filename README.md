@@ -3,11 +3,12 @@
 <head>
 <style>
 body {
-    background-image: url('https://tenor.com/bk0OZ.gif');
+    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjVhcWc1ZGx6enF6YW5zY212bXhvZHA5NGphaTkycnN6azE1encyaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UWz4DJj7qYUJq/giphy.gif');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-color: #000;
     margin: 0;
     padding: 20px;
     }
