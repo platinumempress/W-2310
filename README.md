@@ -30,7 +30,7 @@ a {
 
 webheader {
     font-weight: bold;
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: #003cff;
 }
 </style>
