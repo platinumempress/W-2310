@@ -3,7 +3,7 @@
 <head>
 <style>
 body {
-    background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHpxejQzb2ZxcW1jOTN5eXFxMjZwNGczN29hYzNzZm95YW44emQ2eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw41KQTfrG5weC04n5Hs/giphy.gif');
+    background-image: url('Source: <a href="https://stockcake.com">StockCake</a> (original: <a href="https://stockcake.com/i/colorful-smoke-art_1035291_415889">Colorful Smoke Art</a>)');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
