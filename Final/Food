@@ -22,19 +22,19 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" style="color: white;" href="index.html">Home</a>
+                                <a class="nav-link active" style="color: white;" href="Index">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="activity.html" style="color: white;">Activities</a>
+                                <a class="nav-link" href="Activity" style="color: white;">Activities</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="DailyE.html" style="color: white;">Daily Events</a>
+                                <a class="nav-link" href="DailyE" style="color: white;">Daily Events</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="food.html" style="color: white;">Food and Vendors</a>
+                                <a class="nav-link" href="Food" style="color: white;">Food and Vendors</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="bands.html" style="color: white;">Bands and Artists</a>
+                                <a class="nav-link" href="Bands" style="color: white;">Bands and Artists</a>
                             </li>
                         </ul>
                         <form class="d-flex" role="search">
