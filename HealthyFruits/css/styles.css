@@ -1,0 +1,170 @@
+/* Gobal Styles */ 
+*{
+margin: 0;
+padding: 0;
+}
+
+
+body {
+    background-color: mistyrose;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+} 
+
+nav, gap
+header,
+section 
+footer {
+    background-color: cornsilk;
+}
+
+/* Mobile styles */
+
+#container {
+    margin: 10px;
+}
+
+P {
+    
+    padding: 10px;
+}
+
+h1,
+h2, 
+h3 {
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    border-bottom: 4px solid burlywood;
+}
+
+nav li {
+    display: block;
+    
+}
+
+nav li a {
+    display: block;
+    background-color: lightgray;
+    margin: 10px 0;
+    height: 40px ; 
+    line-height: 40px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    border-bottom: 4px solid cornsilk;
+}
+
+header { 
+    padding: 20px;
+    border-bottom: 4px solid burlywood;
+}
+
+section h2 {
+    margin: 3px 0;
+    padding: 1px;
+}
+
+#multi_col {
+    background-color: cornsilk;
+}
+
+#lower_area {
+    background-color: mistyrose;
+    padding: 10px;
+}
+
+.col {
+    margin: 3px 0;
+    padding: 3px;
+    border-bottom: 4px solid black;
+}
+
+.col img {
+ width: 75%; 
+
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+    margin-top: 10px;
+    background-color: cornsilk;
+}
+
+/* tablet styles */
+
+@media (min-width: 768px) {
+  
+nav {
+    padding: 20px;
+}
+
+    nav li {
+    display: inline-block;
+} 
+
+   nav li a {
+    width: 150px;
+    border-radius: 10px;
+}
+
+#multi_col {
+    display: flex;
+}
+
+.col {
+    width: 70%;
+}
+
+.col_text {
+    margin-top: 60px;
+}
+.col img {
+    width: 40%;
+}
+
+}
+
+/* desktop styles */
+
+@media (min-width: 1024px) {
+    nav li a {
+        background-color: cornsilk;
+    }
+
+    nav li a:hover {
+        border-bottom: 4px solid lightgray;
+    }
+
+    #container {
+        width: 75%;
+        margin: 0 auto;  
+    }
+
+    #lower_area {
+        display: flex;
+    }
+    
+    .col {
+        display: block;
+    }  
+
+    .col img {
+        width: 75%;
+    }
+
+}

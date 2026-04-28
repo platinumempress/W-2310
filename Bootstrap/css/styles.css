@@ -1,0 +1,103 @@
+body {
+    background-color: midnightblue;
+    color: whitesmoke;
+    font-family:'Josefin Sans', sans-serif;
+}
+
+/* classes */
+
+.navbar {
+    background-color: midnightblue;
+}
+
+/* ids */
+
+#header_img {
+    background-image: url(../images/Ciprini.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#header2_img {
+    background-image: url(../images/Australia.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#header3_img {
+    background-image: url(../images/header3_img.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#header4_img {
+    background-image: url(../images/header4_img.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#header5_img {
+    background-image: url(../images/header5_img.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#header {
+    width: 50%;
+}
+
+.modal-title,
+.form-label,
+.form-check-label {
+    font-weight: bold; /* Makes the text bold */
+    color: #000; /* Optional: Makes the text color black */
+}
+
+#Welcome {
+    background-image: url(../images/seafish.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#Wel {
+    background-image: url(../images/Coralreefs.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#el {
+    background-image: url(../images/star.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#W2pg1 {
+    background-image: url(../images/brain.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#W2pg2 {
+    background-image: url(../images/ecosystem.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#W3pg1 {
+    background-image: url(../images/annie.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#W4pg1 {
+    background-image: url(../images/crystal.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width: 1024px) {
+#panel_bg {
+    width: 50%;
+}
+}
