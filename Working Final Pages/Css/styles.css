@@ -211,6 +211,43 @@ h2 {
     background-color: white;
 }
 
+.navbar .d-flex {
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.navbar .form-control {
+    min-width: 180px;
+}
+
+@media (max-width: 767px) {
+    .navbar .d-flex {
+        width: 100%;
+        margin-top: 0.75rem;
+    }
+
+    .navbar .form-control,
+    .navbar .btn {
+        width: 100%;
+    }
+
+    .navbar .form-control {
+        min-width: 0;
+        margin-right: 0 !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar .d-flex {
+        flex-wrap: nowrap;
+    }
+
+    .navbar .form-control {
+        min-width: 140px;
+    }
+}
+
 .navbar a {
     color: #732922;
 }
