@@ -7,61 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEBT-2310 Project Page</title>
     <style>
-        :root{--overlay-bg: rgba(255,255,255,0.92);--overlay-accent: rgba(0,0,0,0.6)}
-        html,body{height:100%;margin:0}
-        .bg-iframe{
-            position:fixed;inset:0;width:100%;height:100%;border:0;z-index:0;opacity:1;pointer-events:none;
+        body {
+            background-image: url('https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHpxejQzb2ZxcW1jOTN5eXFxMjZwNGczN29hYzNzZm95YW44emQ2eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw41KQTfrG5weC04n5Hs/giphy.gif');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-color: #000;
+            margin: 0;
+            padding: 20px;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
         }
-        .overlay{
-            position:relative;z-index:1;max-width:1000px;margin:40px auto;padding:28px;border-radius:8px;background:var(--overlay-bg);box-shadow:0 8px 24px rgba(0,0,0,.25);
+
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 24px;
+            background: rgba(0,0,0,0.45);
+            border-radius: 8px;
         }
-        .page-wrap{min-height:100vh;padding:20px;display:flex;flex-direction:column;gap:12px}
-        .topbar{display:flex;justify-content:space-between;align-items:center}
-        .close-help{background:transparent;border:1px solid #ddd;padding:6px 10px;border-radius:6px;cursor:pointer}
-        a{color:#1a4bd6}
-        @media (max-width:600px){.overlay{margin:12px;padding:18px}}
+
+        a { color: #9ecbff; }
     </style>
 </head>
 
 <body>
-    <iframe class="bg-iframe" src="README.md" title="README background"></iframe>
-    <div class="overlay">
-        <div class="page-wrap">
-            <div class="topbar">
-                <h1>WEBT-2310 Project Page</h1>
-                <button class="close-help" onclick="toggleBackground()">Toggle Background</button>
-            </div>
-            <h2>Html & Css Review</h2>
-            <ul>
-                <li><a href="HealthyFruits/index.html" target="_blank">Healthy Fruits</a></li>
-            </ul>
-            <h2>Bootstrap</h2>
-            <ul>
-                <li><a href="Bootstrap/index.html" target="_blank">Bootstrap</a></li>
-            </ul>
+    <div class="content">
+        <h1>WEBT-2310 Project Page</h1>
 
-            <h2>JavaScript</h2>
-            <ul>
-                <li><a href="" target="_blank">Figma</a></li>
-            </ul>
+        <h2>Html & Css Review</h2>
+        <ul>
+            <li><a href="HealthyFruits/index.html" target="_blank">Healthy Fruits</a></li>
+        </ul>
 
-            <h2>Final</h2>
-            <ul>
-                <li><a href="https://dcholloway.github.io/WEBT-2310/group%20folder/index.html" target="_blank">GroupFinal</a></li>
-                <li><a href="https://www.figma.com/design/ca1IgZrnPgZPMKZbiUPzyB/Untitled?node-id=10-1438&node-type=frame&t=hvLM67l4jfQa35sJ-0" target="_blank">Final Figma Design</a></li>
-                <li><a href="My Page/DailyE1.html" target="_blank">Daily Events</a></li>
-            </ul>
-        </div>
+        <h2>Bootstrap</h2>
+        <ul>
+            <li><a href="Bootstrap/index.html" target="_blank">Bootstrap</a></li>
+        </ul>
+
+        <h2>JavaScript</h2>
+        <ul>
+            <!-- removed placeholder/empty links -->
+        </ul>
+
+        <h2>Final</h2>
+        <ul>
+            <li><a href="https://dcholloway.github.io/WEBT-2310/group%20folder/index.html" target="_blank">GroupFinal</a></li>
+            <li><a href="https://www.figma.com/design/ca1IgZrnPgZPMKZbiUPzyB/Untitled?node-id=10-1438&node-type=frame&t=hvLM67l4jfQa35sJ-0" target="_blank">Final Figma Design</a></li>
+            <li><a href="My Page/DailyE1.html" target="_blank">Daily Events</a></li>
+        </ul>
     </div>
-
-    <script>
-        const iframe = document.querySelector('.bg-iframe');
-        function toggleBackground(){
-            if(!iframe) return;
-            iframe.style.display = (iframe.style.display === 'none') ? 'block' : 'none';
-        }
-    </script>
-
 </body>
 
 </html>
